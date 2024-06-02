@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* max-width: 1024px; */
+    
+    margin: 0 auto;
+    background-color: #ffffff;
+    ;
+    
+}
+
+.text-theme{
+    color: #FF3147
+}
+
+.text-45{
+    font-size: 45px;
+}
+
+
+.text-16{
+    font-size: 16px;
+}
+.text-30{
+font-size: 30px;
+}
+
+
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-24{
+    font-size: 24px;
+}
+
+
+.text-60{
+    font-size: 60px;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+
+.custom-icon{
+    font-size: 25px;
+    color: red;
+    /* background-color: red; */
+}
+
+
+.btn-container > button {
+display: inline-block;
+font-size: 14px;
+border-radius: 4px;
+}
+/* 
+.btn-theme-font-size{
+    font-size: 14px;
+} */
+
+
+.spacer{
+    height: 130px;
+    /* background-color: black; */
+}
+
+.bg-theme{
+    background-color: #FF3147;
+    color: #ffffff;
+}
+
+
+header.jumbotron {
+    /* background-color: #f8f9fa; */
+    margin-bottom: 30px;
+}
+
+.footer{
+    /* width: 100vw; */
+    background-color: #FF3147;
+    height: 310px;
+    /* max-width: 1920px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+
+/* Slider CSS  */
+.slider{
+    display: flex;
+    gap: 40px;
+    
+}
+
+
+
+
+.carousel-indicators{
+    position: unset;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.carousel-indicators button.active div.dot{
+    /* background: #ffffff; */
+    width: 7px;
+    height: 7px;
+    border: 2px solid red;
+    padding: 7px;
+    background:white ;
+
+    
+
+}
+
+.dots{
+/* background-color: aqua; */
+height: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* .slider-container-inside {
+    position: relative;
+    width: 370px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 370px;
+    height: 526px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.dot.active {
+    background: black;
+}
+ */
+
+
+ /* Slider  */
+
+
+
+ /* Contact us Modal */
+ input.modal-input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gainsboro;
+    border-radius: 0;
+    
+    
+ }
+
+ input.modal-input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid gainsboro;
+
+    
+    
+ }
+
+
+
+ /* Nav Slider - tabs */
+
+.tabs-wrapper div.active{
+    background-color: #FF3147 !important;
+    border-radius: 0;
+}
+
+.tabs-wrapper div.tab-item{
+    /* background-color: #FF3147 !important; */
+    border-radius: 0;
+    background-color: #F6F6F6;
+    /* color: #000000; */
+    flex: 1;
+    padding: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+ /* .tabs-wrapper > div.tab-item{
+    background-color: #FF3147
+    /* color: black; */
+ 
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: aqua; */
+    height: 567px;
+}
+
+
+.tabs-wrapper{
+    /* background-color: aqua; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    /* background-color: #F6F6F6; */
+    height: 567px;
+}
+
+
+/* Growth */
+
+.growth-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    /* height: 200px; */
+    /* width: 200px; */
+    /* text-align: center; */
+    
+}
+
+
+.growth-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff;
+    /* border: 1px solid gray; */
+    box-shadow: #ffffff;
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.growth-container{
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.what-we-do-container{
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.zoom-effect {
+    width: 200px;
+    height: 200px;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Smooth transition */
+    margin: 20px; 
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+  .zoom-effect:hover {
+    transform: scale(1.1); /* Zoom in effect */
+  }
