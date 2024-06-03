@@ -99,11 +99,12 @@
               ></button>
             </div>
             <div class="modal-body">
-              <form action="">
+              <form action="https://getform.io/f/pbgxroqa" method="POST" id="contactForm">
                 <div class="d-flex flex-column gap-3">
                   <div class="form-floating">
                     <input
                       type="text"
+                      name="workEmail"
                       class="form-control modal-input"
                       id="workEmail"
                       placeholder="Work Email"
@@ -114,6 +115,7 @@
                     <div class="form-floating">
                       <input
                         type="text"
+                        name="fName"
                         class="form-control modal-input"
                         id="firstName"
                         placeholder="First Name"
@@ -123,6 +125,7 @@
                     <div class="form-floating">
                       <input
                         type="text"
+                        name="lName"
                         class="form-control modal-input"
                         id="lastName"
                         placeholder="Last Name"
@@ -159,6 +162,7 @@
               <button
                 type="button"
                 class="bg-theme btn btn-lg btn-theme-font-size w-100"
+                onclick="document.getElementById('contactForm').submit()"
               >
                 Contact Us
               </button>
