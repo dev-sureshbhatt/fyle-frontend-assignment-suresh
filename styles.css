@@ -51,7 +51,7 @@ font-size: 30px;
 
 .custom-icon{
     font-size: 25px;
-    color: red;
+    color: #FF3147;
     /* background-color: red; */
 }
 
@@ -83,6 +83,26 @@ header.jumbotron {
     margin-bottom: 30px;
 }
 
+
+
+.feedback-message-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* max-width: 800px; */
+
+}
+
+.feedback-message{
+    max-width: 800px;
+}
+
+.designation{
+    color: #808080;
+}
+
+
 .footer{
     /* width: 100vw; */
     background-color: #FF3147;
@@ -94,6 +114,10 @@ header.jumbotron {
     display: flex;
 }
 
+.footer-inside{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 /* Slider CSS  */
@@ -117,7 +141,7 @@ header.jumbotron {
     /* background: #ffffff; */
     width: 7px;
     height: 7px;
-    border: 2px solid red;
+    border: 2px solid #FF3147;
     padding: 7px;
     background:white ;
 
@@ -126,11 +150,46 @@ header.jumbotron {
 }
 
 
-.carousel-item{
-    height: 300px;
-    width: 150px;
-    background-color: red;
+.align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.bg-carousel{
+    background-color: #FF3147;
+    height: 380px;
+}
+
+.carousel-item{
+    height: 400px;
+    /* padding-top: 30px; */
+    width: 250px;
+    /* background-color: #FF3147; */
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+    /* padding-top: 20px; */
+    color: #F6F6F6;
+    object-fit: cover;
+}
+
+.carousel-item span{
+    color: #F6F6F6;
+    font-size: 60px;
+}
+
+.carousel-item button{
+    background-color: #fafafa;
+    color: #FF3147;
+    border: none;
+    padding: 5px 20px;
+}
+
+
 
 .dots{
 /* background-color: aqua; */
@@ -297,10 +356,11 @@ align-items: center;
 }
 
 .what-we-do-container{
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 
 .zoom-effect {
     width: 200px;
@@ -316,3 +376,28 @@ align-items: center;
   .zoom-effect:hover {
     transform: scale(1.1); /* Zoom in effect */
   }
+
+
+  /* Why choose US  */
+
+  .why-choose-us-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .inside-why-choose-us{
+    width: 200px;
+    text-align: left;
+  }
+
+  .spacer-small{
+height: 50px;
+
+  }
+
+  .inside-why-choose-us span{
+    font-size: 50px;
+  }
+
+ 
