@@ -125,6 +125,13 @@ header.jumbotron {
 
 }
 
+
+.carousel-item{
+    height: 300px;
+    width: 150px;
+    background-color: red;
+}
+
 .dots{
 /* background-color: aqua; */
 height: 5px;
